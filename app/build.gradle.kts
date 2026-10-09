@@ -1,3 +1,4 @@
+import java.net.URL
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -46,7 +47,7 @@ val downloadFont by tasks.registering {
     doLast {
         if (!out.exists()) {
             out.parentFile.mkdirs()
-            java.net.URL("https://github.com/google/fonts/raw/main/ofl/urbanist/Urbanist%5Bwght%5D.ttf")
+            URL("https://github.com/google/fonts/raw/main/ofl/urbanist/Urbanist%5Bwght%5D.ttf")
                 .openStream().use { i -> out.outputStream().use { o -> i.copyTo(o) } }
         }
     }
