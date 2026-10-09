@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/urbanist"
+            android:fontFamily="sans-serif"
             android:text="Daily Stress Index"
             android:textColor="#CCFFFFFF"
             android:textSize="10sp" />
@@ -29,7 +29,7 @@
                 android:id="@+id/w_level"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/urbanist"
+                android:fontFamily="sans-serif-light"
                 android:text="32"
                 android:textColor="#FFFFFF"
                 android:textSize="38sp" />
@@ -39,7 +39,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
                 android:layout_marginBottom="7dp"
-                android:fontFamily="@font/urbanist"
+                android:fontFamily="sans-serif"
                 android:text="LVL"
                 android:textColor="#B3FFFFFF"
                 android:textSize="10sp" />
@@ -49,12 +49,12 @@
             android:id="@+id/w_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/urbanist"
+            android:fontFamily="sans-serif"
             android:text="Screen 0m"
             android:textColor="#FFFFFF"
             android:textSize="11sp" />
 
-        <View
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1" />
@@ -62,7 +62,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/urbanist"
+            android:fontFamily="sans-serif"
             android:text="Smart Stress Insight"
             android:textColor="#FFFFFF"
             android:textSize="9sp"
@@ -72,7 +72,7 @@
             android:id="@+id/w_insight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/urbanist"
+            android:fontFamily="sans-serif"
             android:maxLines="2"
             android:text="Open Strss to begin."
             android:textColor="#CCFFFFFF"
