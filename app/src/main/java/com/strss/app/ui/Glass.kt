@@ -1,3 +1,5 @@
+@file:OptIn(androidx.compose.ui.text.ExperimentalTextApi::class)
+
 package com.strss.app.ui
 
 import androidx.compose.animation.core.animateFloatAsState
